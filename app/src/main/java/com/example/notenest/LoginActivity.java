@@ -12,6 +12,7 @@ import android.widget.Toast;
 import androidx.appcompat.app.AppCompatActivity;
 import com.google.android.material.textfield.TextInputEditText;
 import com.google.firebase.auth.FirebaseAuth;
+import com.google.firebase.auth.FirebaseAuthException;
 import com.google.firebase.auth.FirebaseUser;
 
 public class LoginActivity extends AppCompatActivity {
@@ -108,7 +109,16 @@ public class LoginActivity extends AppCompatActivity {
                         Log.w(TAG, "signInWithEmail:failure", task.getException());
                         String errorMessage = "Authentication failed";
                         if (task.getException() != null) {
-                            errorMessage = task.getException().getMessage();
+                            if (task.getException() instanceof FirebaseAuthException) {
+                                String code = ((FirebaseAuthException) task.getException()).getErrorCode();
+                                if (code.equals("ERROR_CONFIGURATION_NOT_FOUND")) {
+                                    errorMessage = "Email/Password sign-in is not enabled in Firebase Console.";
+                                } else {
+                                    errorMessage = task.getException().getMessage();
+                                }
+                            } else {
+                                errorMessage = task.getException().getMessage();
+                            }
                         }
                         showError(errorMessage);
                     }

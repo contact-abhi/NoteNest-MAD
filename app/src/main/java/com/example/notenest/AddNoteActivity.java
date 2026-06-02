@@ -21,7 +21,7 @@ import java.util.List;
 import java.util.UUID;
 
 /**
- * Activity for creating and saving new notes with file attachments
+ * hehehehehe Activity for creating and saving new notes with file attachments
  */
 public class AddNoteActivity extends AppCompatActivity {
 
