@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Primary Colors -->
+    <color name="purple_500">#8b5dff</color>
+    <color name="purple_700">#6d4dcc</color>
+    <color name="purple_300">#b88aff</color>
+    
+    <!-- Neutral Colors -->
+    <color name="black">#000000</color>
+    <color name="white">#FFFFFF</color>
+    <color name="red_500">#FF5252</color>
+    
+    <!-- Light Mode Colors -->
+    <color name="light_bg">#FAFAFA</color>
+    <color name="light_card">#FFFFFF</color>
+    <color name="light_text_primary">#1F1F1F</color>
+    <color name="light_text_secondary">#666666</color>
+    <color name="light_divider">#EEEEEE</color>
+    <color name="gray_light">#F5F5F5</color>
+    <color name="gray_dark">#666666</color>
+    
+    <!-- Dark Mode Colors -->
+    <color name="dark_bg">#121212</color>
+    <color name="dark_card">#1E1E1E</color>
+    <color name="dark_text_primary">#FFFFFF</color>
+    <color name="dark_text_secondary">#B0B0B0</color>
+    <color name="dark_divider">#2A2A2A</color>
+    
+    <!-- Semantic Colors -->
+    <color name="success">#4CAF50</color>
+    <color name="warning">#FFC107</color>
+    <color name="error">#F44336</color>
+</resources>

@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">NoteNest</string>
+    <string name="welcome_message">Welcome to NoteNest</string>
+    <string name="firebase_initializing">Firebase initialized successfully</string>
+    <string name="firebase_error">Firebase initialization failed</string>
+
+    <!-- Login Activity Strings -->
+    <string name="login_title">Welcome Back</string>
+    <string name="login_subtitle">Sign in to your account</string>
+    <string name="email">Email Address</string>
+    <string name="password">Password</string>
+    <string name="login_button">Login</string>
+    <string name="no_account">Don\'t have an account?</string>
+    <string name="signup_link">Sign Up</string>
+
+    <!-- Signup Activity Strings -->
+    <string name="signup_title">Create Account</string>
+    <string name="signup_subtitle">Join NoteNest today</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="signup_button">Create Account</string>
+    <string name="back_button">Back to Login</string>
+
+    <!-- Logout -->
+    <string name="logout">Logout</string>
+    <string name="logout_message">Logged out successfully</string>
+
+    <!-- Home Dashboard -->
+    <string name="my_notes">My Notes</string>
+    <string name="add_note">Add Note</string>
+    <string name="home">Home</string>
+    <string name="sections">Sections</string>
+    <string name="profile">Profile</string>
+    <string name="delete">Delete</string>
+    <string name="sections_coming_soon">Sections feature coming soon</string>
+
+    <!-- Add Note Activity -->
+    <string name="note_title_hint">Note Title</string>
+    <string name="note_section_hint">Section (e.g., Personal, Work, Ideas)</string>
+    <string name="note_content_hint">Note Content</string>
+    <string name="save_button">Save Note</string>
+
+    <!-- Note Detail Activity -->
+    <string name="edit">Edit</string>
+    <string name="save">Save</string>
+    <string name="cancel">Cancel</string>
+
+    <!-- Sections Feature -->
+    <string name="create_new_section">Create New Section</string>
+    <string name="section_name_hint">Section Name (e.g., Work, Personal)</string>
+    <string name="create_section_button">Create Section</string>
+    <string name="no_sections">No Sections Yet</string>
+    <string name="create_section_message">Create your first section to organize your notes</string>
+
+    <!-- File Upload Feature -->
+    <string name="attachments">Attachments</string>
+    <string name="add_file">Add File</string>
+
+    <!-- Search Feature -->
+    <string name="search_notes_hint">Search notes by title or content...</string>
+    <string name="no_notes_title">No notes yet</string>
+    <string name="no_notes_subtitle">Tap + to create your first note</string>
+    <string name="error_loading_notes">Error loading notes</string>
+    <string name="logout_confirm_title">Confirm Logout</string>
+    <string name="logout_confirm_message">Are you sure you want to log out?</string>
+</resources>
